@@ -1,0 +1,6 @@
+# Sys.setenv(TENSORFLOW_PYTHON="/home/ingramm/miniconda3/envs/r-tensorflow/bin/python")
+#library(tensorflow)
+library(devtools)
+devtools::load_all('~/tensorflow')
+# use_python("/home/ingramm/miniconda3/envs/r-tensorflow/bin/python")
+tf$Session()
